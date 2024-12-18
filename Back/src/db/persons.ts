@@ -1,0 +1,60 @@
+import { Person } from "src/person/entities/person.entity";
+
+
+export const personsDB: Partial<Person>[] = [
+    {
+        first_name: 'Luis',
+        last_name: 'Gonzalez',
+        dni: '12345678',
+        email: 'luis@luis.com',
+        phone: "23456789",
+        address: 'Calle 123',
+        location: 'CABA',
+        nationality: 'Argentino',
+        birthdate: new Date("1990-01-01"),
+    },
+    {
+        first_name: 'Jorge',
+        last_name: 'Gonzalez',
+        dni: '1345678',
+        email: 'jorge@jorge.com',
+        phone: "123456789",
+        address: 'Calle 123',
+        location: 'CABA',
+        nationality: 'Argentino',
+        birthdate: new Date("1993-01-01"),
+    },
+    {
+        first_name: 'Carlos',
+        last_name: 'Gonzalez',
+        dni: '12345618',
+        email: 'carlos@carlos.com',
+        phone: "123456789",
+        address: 'Calle 123',
+        location: 'CABA',
+        nationality: 'Argentino',
+        birthdate: new Date("1995-01-01"),
+    },
+    {
+        first_name: 'Lucas',
+        last_name: 'Gonzalez',
+        dni: '12345628',
+        email: 'lucas@lucas.com',
+        phone: "123456782",
+        address: 'Calle 123',
+        location: 'CABA',
+        nationality: 'Argentino',
+        birthdate: new Date("1998-01-01"),
+    },
+    {
+        first_name: 'Sandra',
+        last_name: 'Gonzalez',
+        dni: '12345638',
+        email: 'sandra@sandra.com',
+        phone: "123456784",
+        address: 'Calle 123',
+        location: 'CABA',
+        nationality: 'Argentino',
+        birthdate: new Date("2000-01-01"),
+    }
+]
